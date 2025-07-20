@@ -28,19 +28,19 @@ A Netflix-style login page built using *React (Vite)* for the frontend and *Node
 ## Screenshots
 
 ### Successful Login
-![Successful Login](./src/assets/screenshots/successful%20login.png)
+![Successful Login](client/src/assets/screenshots/successful%20login.png)
 
 ### Invalid Login Attempt
-![Invalid Login](./src/assets/screenshots/invalid%20login.png)
+![Invalid Login](client/src/assets/screenshots/invalid%20login.png)
 
 ### Empty Field Error
-![Empty Field Error](./src/assets/screenshots/empty%20field%20error.png)
+![Empty Field Error](client/src/assets/screenshots/empty%20field%20error.png)
 
 ### Mobile View
-![Mobile View](./src/assets/screenshots/Mobile%20view.png)
+![Mobile View](client/src/assets/screenshots/Mobile%20view.png)
 
 ### Simple Dashboard
-![Simple Dashboard](./src/assets/screenshots/simple%20dashboard.png)
+![Simple Dashboard](client/src/assets/screenshots/simple%20dashboard.png)
 
 ---
 
