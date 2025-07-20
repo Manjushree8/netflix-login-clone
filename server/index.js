@@ -6,9 +6,9 @@ const app = express();
 // ✅ CORS configuration — allow only frontend domain
 app.use(cors({
   origin: "https://netflix-login-clone-client.onrender.com",
-  credentials: true
+  credentials: true,
+  optionsSuccessStatus: 200 // 👈 This fixes the CORS preflight issue on some hosts
 }));
-
 // ✅ Parse incoming JSON
 app.use(express.json());
 
