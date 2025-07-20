@@ -1,6 +1,6 @@
 # Netflix Login Clone
 
-A Netflix-style login page built using **React (Vite)** for the frontend and **Node.js + Express** for the backend. This project demonstrates form validation, frontend-backend integration, and a successful login redirect to a mock dashboard — all styled using **Tailwind CSS**.
+A Netflix-style login page built using *React (Vite)* for the frontend and *Node.js + Express* for the backend. This project demonstrates form validation, frontend-backend integration, and a successful login redirect to a mock dashboard — all styled using *Tailwind CSS*.
 
 ---
 
@@ -19,9 +19,9 @@ A Netflix-style login page built using **React (Vite)** for the frontend and **N
 
 ## Tech Stack
 
-- **Frontend:** React, Vite, Tailwind CSS
-- **Backend:** Node.js, Express
-- **Other:** Axios for HTTP requests
+- *Frontend:* React, Vite, Tailwind CSS
+- *Backend:* Node.js, Express
+- *Other:* Axios for HTTP requests
 
 ---
 
@@ -89,6 +89,5 @@ cd client
 npm install
 npm run dev
 
-Author
-Manjushree Venkatesan
-Learning Full Stack Web Development
+### Author
+Manjushree 
