@@ -10,12 +10,15 @@ function Login() {
 
   const handleLogin = async (e) => {
     e.preventDefault();
+    console.log("Login form submitted");
+
     if (!email || !password) {
       setError("All fields are required");
       return;
     }
 
     try {
+      console.log("Sending POST to backend...");
       const res = await axios.post(
         "https://netflix-login-clone-backend.onrender.com/api/login",
         {
@@ -24,12 +27,15 @@ function Login() {
         }
       );
 
+      console.log("Response:", res.data);
+
       if (res.data.success) {
         navigate("/dashboard");
       } else {
         setError("Invalid email or password");
       }
     } catch (err) {
+      console.error("Error:", err);
       setError("Server error. Please try again later.");
     }
   };
